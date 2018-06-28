@@ -60,7 +60,7 @@ body {
   color: white;
   font-family: 'Montserrat', sans-serif;
   text-decoration: underline;
-  font-size: 154px;
+  font-size: 350%;
   text-align: center;
   align-content: center;
 }
@@ -102,7 +102,7 @@ p {
 .sub {
   margin-top: 90px;
   margin-bottom: 30px;
-  font-size: 98px;
+  font-size: xx-large;
 }
 
 .planes {
@@ -149,6 +149,7 @@ p {
 .footer h2 {
   display: inline;
   color: white;
+  font-size: 150%;
 }
 
 .thinker {
@@ -172,6 +173,7 @@ p {
   and (max-device-width: 736px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
   .about, sub {
-    font-size-adjust: 50%;
+    font-size: 2em;
+    line-height: 1.25em;
   }
 }
